@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'; // Importing the CSS file for styling
+import Inputodo from './components/Input'; // Importing the Inputodo component
+import Listtodo from './components/List'; // Importing the Listtodo component
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Inputodo/> {/* Rendering the Inputodo component */}
+      <Listtodo/> {/* Rendering the Listtodo component */}
     </div>
   );
 }
 
-export default App;
+export default App; // Exporting the App component as default

@@ -1,0 +1,21 @@
+.mains{
+    height: 100%;
+}
+.data{
+    width: 300px;
+
+}
+.add-btn:hover{
+    color: dodgerblue;
+}
+
+.trash:hover{
+    color: red;
+}
+.edit:hover{
+    color:darkkhaki
+}
+.dates{
+    width:auto;
+    text-wrap: nowrap;
+}
